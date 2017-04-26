@@ -1,106 +1,48 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuantLib", "QuantLib_vc9.vcproj", "{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuantLib", "QuantLib_vc9.vcxproj", "{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testsuite", "test-suite\testsuite_vc9.vcproj", "{A613045C-34AF-4706-AA3C-730C92524F74}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testsuite", "test-suite\testsuite_vc9.vcxproj", "{A613045C-34AF-4706-AA3C-730C92524F74}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap", "Examples\Swap\Swap_vc9.vcproj", "{4EAC6A0E-20F2-4B5A-8250-7E930CCE3AD0}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap", "Examples\Swap\Swap_vc9.vcxproj", "{4EAC6A0E-20F2-4B5A-8250-7E930CCE3AD0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EquityOption", "Examples\EquityOption\EquityOption_vc9.vcproj", "{EF6D982C-CF99-4442-B297-776DBECFAFC9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EquityOption", "Examples\EquityOption\EquityOption_vc9.vcxproj", "{EF6D982C-CF99-4442-B297-776DBECFAFC9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConvertibleBonds", "Examples\ConvertibleBonds\ConvertibleBonds_vc9.vcproj", "{7C32702E-ED12-49F1-B476-656DD1EBCE66}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConvertibleBonds", "Examples\ConvertibleBonds\ConvertibleBonds_vc9.vcxproj", "{7C32702E-ED12-49F1-B476-656DD1EBCE66}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FRA", "Examples\FRA\FRA_vc9.vcproj", "{B96E9E0A-99DA-4E9F-B8D0-941F46CDF634}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FRA", "Examples\FRA\FRA_vc9.vcxproj", "{B96E9E0A-99DA-4E9F-B8D0-941F46CDF634}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repo", "Examples\Repo\Repo_vc9.vcproj", "{1B660588-A923-4D84-9092-16DA67869773}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repo", "Examples\Repo\Repo_vc9.vcxproj", "{1B660588-A923-4D84-9092-16DA67869773}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Replication", "Examples\Replication\Replication_vc9.vcproj", "{7FF22935-8C7D-4903-908C-B77A9CDBA840}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Replication", "Examples\Replication\Replication_vc9.vcxproj", "{7FF22935-8C7D-4903-908C-B77A9CDBA840}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BermudanSwaption", "Examples\BermudanSwaption\BermudanSwaption_vc9.vcproj", "{940A0AFC-9F9F-4797-A0FF-99543F67C1D9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BermudanSwaption", "Examples\BermudanSwaption\BermudanSwaption_vc9.vcxproj", "{940A0AFC-9F9F-4797-A0FF-99543F67C1D9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiscreteHedging", "Examples\DiscreteHedging\DiscreteHedging_vc9.vcproj", "{C3E22CAD-0CAF-42DC-ADE0-B2FF4F644BCE}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiscreteHedging", "Examples\DiscreteHedging\DiscreteHedging_vc9.vcxproj", "{C3E22CAD-0CAF-42DC-ADE0-B2FF4F644BCE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FittedBondCurve", "Examples\FittedBondCurve\FittedBondCurve_vc9.vcproj", "{4E262A25-90B4-449A-BFC0-95311CADF91D}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FittedBondCurve", "Examples\FittedBondCurve\FittedBondCurve_vc9.vcxproj", "{4E262A25-90B4-449A-BFC0-95311CADF91D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallableBonds", "Examples\CallableBonds\CallableBonds_vc9.vcproj", "{0214688B-CE8A-4446-9BDD-1AE7F486EB8B}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallableBonds", "Examples\CallableBonds\CallableBonds_vc9.vcxproj", "{0214688B-CE8A-4446-9BDD-1AE7F486EB8B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CDS", "Examples\CDS\CDS_vc9.vcproj", "{65F5530B-D97E-4BDB-949F-9C31C56104B0}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CDS", "Examples\CDS\CDS_vc9.vcxproj", "{65F5530B-D97E-4BDB-949F-9C31C56104B0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bonds", "Examples\Bonds\Bonds_vc9.vcproj", "{C8AFC9D1-704C-4AB5-911B-3C93C27C63D0}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bonds", "Examples\Bonds\Bonds_vc9.vcxproj", "{C8AFC9D1-704C-4AB5-911B-3C93C27C63D0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarketModels", "Examples\MarketModels\MarketModels_vc9.vcproj", "{47CE2A41-091A-42A3-B40D-F6F0DD689349}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarketModels", "Examples\MarketModels\MarketModels_vc9.vcxproj", "{47CE2A41-091A-42A3-B40D-F6F0DD689349}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gaussian1dModels", "Examples\Gaussian1dModels\Gaussian1dModels_vc9.vcproj", "{B62FC7BE-C1BC-4AB0-BB11-BBF627CC3BA6}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gaussian1dModels", "Examples\Gaussian1dModels\Gaussian1dModels_vc9.vcxproj", "{B62FC7BE-C1BC-4AB0-BB11-BBF627CC3BA6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultidimIntegral", "Examples\MultidimIntegral\MultidimIntegral_vc9.vcproj", "{D3E10D43-57DF-42D7-AEA6-44AD48CAE119}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultidimIntegral", "Examples\MultidimIntegral\MultidimIntegral_vc9.vcxproj", "{D3E10D43-57DF-42D7-AEA6-44AD48CAE119}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LatentModel", "Examples\LatentModel\LatentModel_vc9.vcproj", "{E4098DFF-FD34-48A6-955F-C1E3F97FBA26}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LatentModel", "Examples\LatentModel\LatentModel_vc9.vcxproj", "{E4098DFF-FD34-48A6-955F-C1E3F97FBA26}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasketLosses", "Examples\BasketLosses\BasketLosses_vc9.vcproj", "{43A17E5B-EC94-4EB5-9D68-788BF234AE1F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasketLosses", "Examples\BasketLosses\BasketLosses_vc9.vcxproj", "{43A17E5B-EC94-4EB5-9D68-788BF234AE1F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CVAIRS", "Examples\CVAIRS\CVAIRS_vc9.vcproj", "{D85EA161-361A-4CAC-8B77-39E174FCFFE2}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CVAIRS", "Examples\CVAIRS\CVAIRS_vc9.vcxproj", "{D85EA161-361A-4CAC-8B77-39E174FCFFE2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlobalOptimizer", "Examples\GlobalOptimizer\GlobalOptimizer_vc9.vcproj", "{ED7AED39-312A-4330-8ADF-DD24F848A754}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlobalOptimizer", "Examples\GlobalOptimizer\GlobalOptimizer_vc9.vcxproj", "{ED7AED39-312A-4330-8ADF-DD24F848A754}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
